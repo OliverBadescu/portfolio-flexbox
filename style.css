@@ -187,7 +187,7 @@ main{
     font-size: 0.6em;
     height: 80px;
     width: 90%;
-    max-width: 340px;
+
 }
 
 
@@ -247,6 +247,11 @@ main{
         height:auto;
     }
 
+    .text-item{
+        max-width: 450px;
+    }
+
+
 }
 
 @media (min-width:1024px){
@@ -296,5 +301,9 @@ main{
     .main-item{
         width: 30%;
         max-width: 500px;
+    }
+
+    .navigation-footer{
+        max-width: none;
     }
 }
