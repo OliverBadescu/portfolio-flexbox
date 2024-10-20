@@ -127,6 +127,71 @@ main{
 
 }
 
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.contact-item{
+    font-size: 1em;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-item{
+    color: #868686;
+    font-weight: 350;
+    width: 100%;
+    max-width: 320px;
+    align-self: center;
+}
+
+.phone-item{
+    flex-direction: row;
+    width: 70%;
+    align-self: center;
+    max-width: 340px;
+}
+
+.phone-item .text-item{
+    width: 30%;
+}
+
+.email-item{
+    flex-direction: row;
+    width:70%;
+    align-self: center;
+    max-width: 340px;
+}
+
+.email-item .text-item{
+    width: 30%;
+}
+
+.navigation-footer{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    font-size: 0.6em;
+    height: 80px;
+    width: 90%;
+    max-width: 340px;
+}
+
+
+
 @media (min-width:600px) {
 
     .header-container{
